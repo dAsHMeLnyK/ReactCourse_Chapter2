@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
-import LoginPage from '../pages/LoginPage';
-import MoviesPage from '../pages/MoviesPage';
-import NotFoundPage from '../pages/NotFoundPage';
+import HomePage from '../pages/home/HomePage';
+import LoginPage from '../pages/auth/LoginPage';
+import MoviesPage from '../pages/movies/MoviesPage';
+import NotFoundPage from '../pages/not-found/NotFoundPage';
 
 const BasicRouter = () => {
     return (
