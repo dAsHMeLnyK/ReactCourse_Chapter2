@@ -15,6 +15,9 @@ const Layout = ({ children }) => {
             <li>
               <Link to="/movies">Movies</Link>
             </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
           </ul>
         </nav>
       </header>
